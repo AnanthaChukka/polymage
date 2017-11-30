@@ -21,8 +21,19 @@ h - to switch to harris corner detection
 u - to switch to unsharp mask
 b - to switch to bilateral grid
 l - to switch to local laplacian filters
+d - to switch to yolo detection mode
 
 space - to toggle between OpenCV and PolyMage mode
         (applies only to 'harris' and 'unsharp mask' modes)
 
 n - to toggle between naive and optimized PolyMage code
+
+Instruction for weights and video files.
+
+1. Please put yolo weights in yolo_integration/weights/
+2. Put any test video in yolo_integration/video/
+3. The default name for test video is test.mp4.
+
+Note: Create the weights and video folders if not present.
+
+
