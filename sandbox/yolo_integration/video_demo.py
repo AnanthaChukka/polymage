@@ -625,7 +625,7 @@ class PolyMage():
 if __name__ == '__main__':
 
 
-    video_file = './video/test.mp4'
+    video_file = sys.argv[1]
     pm_object = PolyMage(video_file)
     pm_object.pm_construction()
     pm_object.process_video()
