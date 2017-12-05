@@ -543,7 +543,7 @@ class PolyMage():
             value = frameEnd*1000-frameStart*1000
             self.update_frame_sums(value)
 
-            rectangle(res, (0, 0), (750, 150), (255, 255, 255), thickness=FILLED)
+            rectangle(res, (0, 0), (750, 150), (255, 255, 255), thickness=cv.CV_FILLED)
             draw_str(res, (40, 40),      "frame interval :  %.1f ms" % value)
 
             if self.yolo_mode:
